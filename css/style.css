@@ -1,0 +1,23 @@
+:root{
+   --cor-texto:#202020;
+   --cor-fundo: #eee; 
+}
+
+body {
+    background-color: var(--cor-fundo);
+}
+.titulo .titulo-principal {
+    color: var(--cor-texto);
+}
+
+.cabecalho-fixo {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    
+}
+
+.titulo .titulo-principal {
+    margin: 0.5em 0;
+}
