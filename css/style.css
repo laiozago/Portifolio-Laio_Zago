@@ -6,18 +6,13 @@
 body {
     background-color: var(--cor-fundo);
 }
-.titulo .titulo-principal {
-    color: var(--cor-texto);
-}
 
-.cabecalho-fixo {
-    display: flex;
-    flex-direction: column;
+.cabecalho {
     text-align: center;
-    align-items: center;
-    
+    font-size: 1vw;
 }
 
-.titulo .titulo-principal {
-    margin: 0.5em 0;
+.texto_projetos {
+    text-align: center;
 }
+
