@@ -1,3 +1,6 @@
+body {
+    background-color: gold;
+}
 .card {
     width: 95%;
     margin-left: 2.5%;
@@ -13,4 +16,21 @@
 
 .navbar .navbar-expand-lg .bg-light {
     padding-left: 0.5rem !important;
+}
+
+.botao-email {
+
+}
+
+.botao-whatsapp {
+    border: 2px solid #00aa4e;
+    background-color: transparent;
+    color: #00aa4e;
+    font-weight: 600;
+}
+
+.rodape {
+    background-color: rgb(248, 245, 202);
+    margin-top: 2rem;
+    margin-bottom: 1.5rem;
 }
