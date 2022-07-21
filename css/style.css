@@ -6,6 +6,10 @@ body {
     margin-left: 2.5%;
 }
 
+.card:hover {
+    cursor: pointer;
+}
+
 .navbar-brand {
     cursor: default;
 }
@@ -18,9 +22,10 @@ body {
     padding-left: 0.5rem !important;
 }
 
-.botao-email {
 
-}
+/* .botao-email {
+
+} */
 
 .botao-whatsapp {
     border: 2px solid #00aa4e;
