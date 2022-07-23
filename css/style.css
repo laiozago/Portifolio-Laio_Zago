@@ -2,6 +2,14 @@ body {
     background-color: gold;
 }
 
+.titulo-projetos {
+    background-color: rgb(248, 245, 202);
+    border: 2px solid whitesmoke;
+    text-align: center;
+    margin-top: 1rem;
+    
+}
+
 .cartoes {
     display: flex;
     flex-direction: column;
@@ -11,12 +19,23 @@ body {
     background-color: aliceblue;
     border: 1px solid #0e0e0e;
     border-radius: 0.5rem;
-    height: 80%;
+    max-height: 80%;
+    margin: 0.5rem;
+    cursor: pointer;
+}
+
+.cartao-imagem {
+    width: auto;
+    height: 300px;
+}
+
+.cartao-rodape {
+    padding-left: 0.5rem;
 }
 
 .botao-email {
-    border: 2px solid #00aa4e; 
-} 
+    border: 2px solid #00aa4e;
+}
 
 .botao-whatsapp {
     border: 2px solid #00aa4e;

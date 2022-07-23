@@ -1,21 +1,27 @@
+/* no o objeto o data-card="nome" */
+
 const sites = [{
+    projeto: "front-end",
     nome: "Robotron",
     endereco: "https://robotron-laiozago.vercel.app/",
-    
-},{
+
+}, {
+    projeto: "front-end",
     nome: "Barbearia",
     endereco: "https://barbearia-laiozago.vercel.app/index.html"
-}]
+}];
 
-sites.forEach()
-const card = document.querySelectorAll("[data-card]") 
+let siteRobotron = sites[0].endereco
+let siteBarbearia = sites[1].endereco
+
+let cardRobotron = document.querySelector("[data-card='Robotron']")
+let cardBarbearia = document.querySelector("[data-card='Barbearia']")
 
 
+cardRobotron.addEventListener("click", () => {
+    window.open(siteRobotron)
+})
 
-/* function paraPaginadoProjeto(site) {
-    card.addEventListener('click',() => {
-        window.open(site)
-    })
-} */
-paraPaginadoProjeto("https://robotron-laiozago.vercel.app/")
-paraPaginadoProjeto("https://barbearia-laiozago.vercel.app/index.html")
+cardBarbearia.addEventListener("click", () => {
+    window.open(siteBarbearia)
+})
