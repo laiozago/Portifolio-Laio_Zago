@@ -1,138 +1,131 @@
 <!doctype html>
 <html lang="pt">
 
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>PORTIFÓLIO | LAIO</title>
-  <link rel="stylesheet" href="css/reset.css">
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
-  <link rel="stylesheet" href="css/style.css">
-</head>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>PORTIFÓLIO | LAIO</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+      integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+  </head>
 
-<body>
-  <!-- barra de navegação -->
-  <nav class="navbar navbar-expand-lg bg-light navbar-ajuste">
-    <div class="container-fluid">
-      <a class="navbar-brand" href="#">LAIO ZAGO</a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
-        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-          <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">Home</a>
-          </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
-              aria-expanded="false">
-              Projetos
-            </a>
-            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <li><a class="dropdown-item" href="#front-end">Front-End</a></li>
-              <li><a class="dropdown-item" href="#matematica">Matemática</a></li>
-              <!-- <li>
-                <hr class="dropdown-divider">
+  <body>
+    <!-- barra de navegação -->
+    <header>
+      <nav class="navbar navbar-expand-lg bg-light navbar-ajuste">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="http://laiozago.com.br/">LAIO ZAGO</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="http://laiozago.com.br/">Home</a>
               </li>
-              <li><a class="dropdown-item" href="#">Something else here</a></li> -->
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+                  aria-expanded="false">
+                  Projetos
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="#front-end">Front-End</a></li>
+                  <li><a class="dropdown-item" href="#matematica">Matemática</a></li>
+                  <!-- <li>
+                  <hr class="dropdown-divider">
+                </li>
+                <li><a class="dropdown-item" href="#">Something else here</a></li> -->
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contato">Contato</a>
+              </li>
             </ul>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#contato">Contato</a>
-          </li>
-        </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <!-- cards dos projetos Front-End -->
+
+    <p class="titulo-projetos" id="front-end">Projetos Front-End</p>
+
+    <div class="cartoes">
+      <div class="cartao">
+        <div class="cartao-total" data-card="Robotron">
+          <center><img src="img/robotron.png" class="cartao-imagem" alt="Imagem do Robotron"></center>
+          <div class="cartao-rodape">
+            <h5 class="cartao-rodape-titulo">Robotron</h5>
+            <p class="cartao-rodape-texto">Projeto front-end - percorrendo o DOM e alterar dados da página</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="cartao">
+        <div class="cartao-total" data-card="Barbearia">
+          <center><img src="img/barbearia.png" class="cartao-imagem" alt="Logo da barbearia"></center>
+          <div class="cartao-rodape">
+            <h5 class="cartao-rodape-titulo">Barbearia</h5>
+            <p class="cartao-rodape-texto">Projeto front-end - Barbearia</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="cartao">
+        <div class="cartao-total" data-card="Mochila-de-viagem">
+          <center><img src="img/mochila-de-viagem.png" class="cartao-imagem" alt="Tela da página: mochila-de-viagem">
+          </center>
+          <div class="cartao-rodape">
+            <h5 class="cartao-rodape-titulo">Mochila-de-viagem</h5>
+            <p class="cartao-rodape-texto">Objetivo do projeto: guardar dados no navegador e manipular o HTML pelo
+              JavaScript</p>
+          </div>
+        </div>
       </div>
     </div>
-  </nav>
 
-  <!-- cards dos projetos Front-End -->
+    <!-- cards dos projetos Matemática -->
 
-  <p class="titulo-projetos" id="front-end">Projetos Front-End</p>
+    <p class="titulo-projetos" id="matematica">Projetos Matemática</p>
 
-  <div class="cartoes">
     <div class="cartao">
-      <div class="cartao-total" data-card="Robotron">
-        <center><img src="img/robotron.png" class="cartao-imagem" alt="Imagem do Robotron"></center>
+      <div class="cartao-total" data-card="Equacao-do-segundo-grau">
+        <center><img src="img/bhaskara.jpg" class="cartao-imagem" alt="Desenho a mão de homem de aparência indiana, supostamente Bhaskara">
+        </center>
         <div class="cartao-rodape">
-          <h5 class="cartao-rodape-titulo">Robotron</h5>
-          <p class="cartao-rodape-texto">Projeto front-end - percorrendo o DOM e alterar dados da página</p>
+          <h5 class="cartao-rodape-titulo">Calculadora de raízes</h5>
+          <p class="cartao-rodape-texto">Calculadora de raízes de funções do segundo grau</p>
         </div>
       </div>
     </div>
 
-    <div class="cartao">
-      <div class="cartao-total" data-card="Barbearia">
-        <center><img src="img/barbearia.png" class="cartao-imagem" alt="Logo da barbearia"></center>
-        <div class="cartao-rodape">
-          <h5 class="cartao-rodape-titulo">Barbearia</h5>
-          <p class="cartao-rodape-texto">Projeto front-end - Barbearia</p>
+
+    <!-- rodapé -->
+
+    <footer>
+      <div class="card text-center rodape" id="contato">
+        <div class="card-body">
+          <h5 class="card-title">Como entrar em contato</h5>
+          <a href="mailto:laiozago@gmail.com" class="btn botao-email btn-primary">email</a>
+          <p class="card-text">ou</p>
+          <a href="https://api.whatsapp.com/send?phone=5521999036284" class="btn botao-whatsapp btn-primary">whatsapp</a>
+        </div>
+        <div class="card-footer text-muted">
+          "Vida longa e próspera!"
         </div>
       </div>
-    </div>
+    </footer>
 
-    <div class="cartao">
-      <div class="cartao-total" data-card="Mochila-de-viagem">
-        <center><img src="img/mochila-de-viagem.png" class="cartao-imagem" alt="Tela da página: mochila-de-viagem"></center>
-        <div class="cartao-rodape">
-          <h5 class="cartao-rodape-titulo">Mochila-de-viagem</h5>
-          <p class="cartao-rodape-texto">Objetivo do projeto: guardar dados no navegador e manipular o HTML pelo JavaScript</p>
-        </div>
-      </div>
-    </div>
-  </div>
+    <!-- BOOTSTRAP -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous">
+    </script>
 
-  <!-- cards dos projetos Matemática -->
-
-  <p class="titulo-projetos" id="matematica">Projetos Matemática</p>
-
-  <!--   <div class="">
-    <div class="">
-      <div class="" data-card="">
-        <img src="" class="" alt="I">
-        <div class="">
-          <h5 class=""></h5>
-          <p class=""></p>
-        </div>
-      </div>
-    </div>
-
-    <div class="">
-      <div class="" data-card="">
-        <img src="" class="" alt="">
-        <div class="">
-          <h5 class=""></h5>
-          <p class=""></p>
-        </div>
-      </div>
-    </div>
-  </div> -->
-
-
-  <!-- rodapé -->
-
-  <footer>
-    <div class="card text-center rodape" id="contato">
-      <div class="card-body">
-        <h5 class="card-title">Como entrar em contato</h5>
-        <a href="mailto:laiozago@gmail.com" class="btn botao-email btn-primary">email</a>
-        <p class="card-text">ou</p>
-        <a href="https://api.whatsapp.com/send?phone=5521999036284" class="btn botao-whatsapp btn-primary">whatsapp</a>
-      </div>
-      <div class="card-footer text-muted">
-        "Vida longa e próspera!"
-      </div>
-    </div>
-  </footer>
-
-  <!-- BOOTSTRAP -->
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous">
-  </script>
-
-  <!--main.js-->
-  <script src="js/main.js"></script>
-</body>
+    <!--main.js-->
+    <script src="js/main.js"></script>
+  </body>
 
 </html>
