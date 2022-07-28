@@ -28,7 +28,7 @@ let siteEquacaoDeSegundoGrau = sites[3].endereco
 let cardRobotron = document.querySelector("[data-card='Robotron']")
 let cardBarbearia = document.querySelector("[data-card='Barbearia']")
 let cardMochilaDeViagem = document.querySelector("[data-card='Mochila-de-viagem']")
-let cardEquacaoDeSegundoGrau = document.querySelector("[data-card='Equacao-do-segungo-grau']")
+let cardEquacaoDoSegundoGrau = document.querySelector("[data-card='Equacao-do-segungo-grau']")
 
 
 cardRobotron.addEventListener("click", () => {
@@ -43,6 +43,6 @@ cardMochilaDeViagem.addEventListener("click", () => {
     window.open(siteMochilaDeViagem)
 })
 
-cardEquacaoDeSegundoGrau.addEventListener("click", () => {
-    window.open(siteMochilaDeViagem)
+cardEquacaoDoSegundoGrau.addEventListener("click", () => {
+    window.open(siteEquacaoDeSegundoGrau)
 })
