@@ -25,10 +25,9 @@ body {
 }
 
 .cartao-imagem {
-    width: 60vw;
-    height: auto;
+    height: 156px;
     margin: 1rem 0 1rem 0;
-    max-height: 75vw;
+    max-height: 60vw;
 }
 
 .cartao-rodape {
