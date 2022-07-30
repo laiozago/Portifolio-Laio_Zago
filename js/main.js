@@ -18,17 +18,23 @@ const sites = [{
     projeto: "front-end",
     nome: "Equacao-do-segungo-grau",
     endereco: "https://equacao-do-segundo-grau.vercel.app/"
+},{
+    projeto: "front-end",
+    nome: "Fruta-e-fruto",
+    endereco: "https://fruta-e-fruto-eight.vercel.app/"
 }];
 
 let siteRobotron = sites[0].endereco
 let siteBarbearia = sites[1].endereco
 let siteMochilaDeViagem = sites[2].endereco
 let siteEquacaoDeSegundoGrau = sites[3].endereco
+let siteFrutaEFruto = sites[4].endereco
 
 let cardRobotron = document.querySelector("[data-card='Robotron']")
 let cardBarbearia = document.querySelector("[data-card='Barbearia']")
 let cardMochilaDeViagem = document.querySelector("[data-card='Mochila-de-viagem']")
 let cardEquacaoDoSegundoGrau = document.querySelector("[data-card='Equacao-do-segundo-grau']")
+let cardFrutaEFruto = document.querySelector("[data-card='Fruta-e-fruto']")
 
 
 cardRobotron.addEventListener("click", () => {
@@ -45,4 +51,8 @@ cardMochilaDeViagem.addEventListener("click", () => {
 
 cardEquacaoDoSegundoGrau.addEventListener("click", () => {
     window.open(siteEquacaoDeSegundoGrau)
+})
+
+cardFrutaEFruto.addEventListener("click", () => {
+    window.open(siteFrutaEFruto)
 })
